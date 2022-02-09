@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-}
+  }
 
 body {
-  background-color: lightblue;
+  background:linear-gradient(to right, #2be70a, #0e6649);;
+  font-size: 2rem;
 }
 
 html {
@@ -17,6 +18,25 @@ header {
   text-align: center;
 }
 
-.anchor{
+
+
+nav{
     text-align: center;
+}
+
+a {
+  color: black;
+}
+
+main, footer{
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+}
+
+.bottom{
+ margin-top: 0%;
+
 }

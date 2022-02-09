@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* sets 1 rem to 10 pixels */
+  font-size: 62.5%;
+}
+
+body {
+  height: 95vh;
+  background-color: rgb(10, 81, 122);
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+  border: solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.5rem;
+  border: solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+  padding: 1rem;
+}
+a {
+  color: black;
+}
+
+main {
+}
+
+.words {
+  text-align: center;
+  font-size: 2rem;
+  border: solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+  margin: 0 auto;
+}
+
+.words:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+    transform: scale(1.03) translateY(-0.5rem);
+    transition: all 0.7s ease;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-columns: 200px;
+  text-transform: capitalize;
+  border: solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+}
+
+.box {
+  border: solid black;
+  border-radius: 3rem;
+  margin: 2%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.box:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+  transform: scale(1.03) translateY(-0.5rem);
+  transition: all 0.7s ease;
+}
+
+.box_one {
+  background-color: #7ed56f;
+}
+
+.box_two {
+  background-color: #7ed56f;
+}
+
+.box_three {
+  background-color: #7ed56f;
+}
+
+.input {
+  border: solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  height: 10vh;
+}
+
+
+.text_window {
+  border-radius: 1rem;
+  height: 3rem;
+  width: 15%;
+  margin: 2rem;
+  background-color: grey;
+}
+.text_window:hover {
+  background-color: azure;
+}
+
+.input_button {
+  border-radius: 1rem;
+  width: 10%;
+  height: 3rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.input_button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+  transform: scale(1.03) translateY(-0.5rem);
+  transition: all 0.7s ease;
+}
+
+.input_button:active {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  border: solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #7ed56f, #28b485);
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
